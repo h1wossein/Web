@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>رزومه</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f5fb;--s:#fff;--tx:#0f172a;--mu:#64748b;--ac:#6366f1;--ac2:#06b6d4;--bd:#e4e7f0;--gl:#ffffffbf}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#070b16;--s:#0f1629;--tx:#e8ecf8;--mu:#8e9bb5;--bd:#1e2740;--gl:#0b1222bf}}
+:root[data-theme=dark]{--bg:#070b16;--s:#0f1629;--tx:#e8ecf8;--mu:#8e9bb5;--bd:#1e2740;--gl:#0b1222bf}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9;padding-top:env(safe-area-inset-top,0px)}
+.w{max-width:1040px;margin:auto;padding:0 20px}
+.nv{position:sticky;top:0;z-index:20;background:var(--gl);backdrop-filter:blur(14px);border-bottom:1px solid var(--bd)}
+.nv .w{display:flex;align-items:center;justify-content:space-between;height:60px;gap:10px}
+.nv a{color:var(--mu);text-decoration:none;font-size:14px;margin:0 9px}.nv a:hover{color:var(--tx)}
+.gt{background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lg{font-weight:800}
+.hero{position:relative;overflow:hidden;isolation:isolate;padding:70px 0 50px;text-align:center}
+.hero:before,.hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;filter:blur(90px);opacity:.28;z-index:-1}
+.hero:before{background:var(--ac);top:-220px;right:-120px}.hero:after{background:var(--ac2);bottom:-280px;left:-140px}
+.av{width:140px;height:140px;border-radius:50%;margin:0 auto 18px;background:linear-gradient(135deg,var(--ac),var(--ac2));display:grid;place-items:center;color:#fff;font-size:52px;font-weight:800;overflow:hidden;border:4px solid var(--s);box-shadow:0 0 0 2px var(--ac),0 16px 50px #6366f155}
+.av img{width:100%;height:100%;object-fit:cover}.av.sm{width:64px;height:64px;font-size:24px;margin:0;box-shadow:none;flex:none}
+.bdg{display:inline-flex;align-items:center;gap:8px;padding:3px 14px;border-radius:99px;border:1px solid var(--bd);background:var(--gl);font-size:13px;color:var(--mu);margin-bottom:12px}
+.bdg i{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 0 #22c55e88;animation:pl 2s infinite}
+@keyframes pl{70%{box-shadow:0 0 0 9px #0000}}
+h1{margin:0;font-size:clamp(30px,6vw,52px);font-weight:800;line-height:1.4}
+.tt{font-size:clamp(15px,2.4vw,19px);color:var(--mu);margin:4px 0}
+.bio{max-width:640px;margin:10px auto 0;color:var(--mu);white-space:pre-line}
+.ct{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.btn{border:1px solid var(--bd);background:var(--s);color:var(--tx);padding:8px 18px;border-radius:12px;font:inherit;font-size:14px;cursor:pointer;text-decoration:none;transition:.2s;display:inline-block}
+.btn:hover{border-color:var(--ac);transform:translateY(-2px)}.btn.p{background:linear-gradient(90deg,var(--ac),var(--ac2));color:#fff;border:0}
+.btn.wide{width:100%;margin-top:6px}.btn:disabled{opacity:.6}
+.stt{display:flex;justify-content:center;gap:clamp(18px,6vw,56px);margin-top:36px}
+.stt b{display:block;font-size:30px;font-weight:800;line-height:1.2}.stt span{font-size:13px;color:var(--mu)}
+section{padding:36px 0}
+h2{font-size:24px;margin:0 0 22px}h2 small{display:block;font-size:13px;color:var(--ac);font-weight:600;letter-spacing:.5px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+.c{background:var(--s);border:1px solid var(--bd);border-radius:20px;padding:22px;transition:.3s}
+.c:hover{transform:translateY(-4px);box-shadow:0 18px 40px #0000001f;border-color:var(--ac)}
+.c h3{margin:0 0 10px;font-size:17px}.ic{font-size:26px;margin-bottom:4px}
+.sk{margin:11px 0;font-size:14px}.sk .t{display:flex;justify-content:space-between}
+.bar{height:7px;border-radius:9px;background:var(--bd);overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;border-radius:9px;background:linear-gradient(90deg,var(--ac),var(--ac2));width:0;transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+.pc{background:var(--s);border:1px solid var(--bd);border-radius:20px;overflow:hidden;transition:.3s}
+.pc:hover{transform:translateY(-5px);box-shadow:0 20px 44px #0000001f;border-color:var(--ac)}
+.bw{display:flex;align-items:center;gap:6px;padding:10px 14px;background:linear-gradient(120deg,hsl(var(--h) 70% 55%/.22),hsl(calc(var(--h) + 50) 70% 55%/.12));border-bottom:1px solid var(--bd);font-size:12px;color:var(--mu)}
+.bw i{width:9px;height:9px;border-radius:50%;background:#ef4444}.bw i:nth-child(2){background:#f59e0b}.bw i:nth-child(3){background:#22c55e}
+.bw span{margin-right:10px;direction:ltr;background:var(--bg);border-radius:8px;padding:0 10px;flex:1}
+.pb{padding:18px 20px 20px}.pb h3{margin:0}.pb p{margin:6px 0 12px;color:var(--mu);font-size:14px}
+.tg{display:inline-block;font-size:12px;padding:0 10px;margin:0 0 6px 6px;border-radius:99px;background:var(--bg);border:1px solid var(--bd);color:var(--mu)}
+.tl{border-right:2px solid var(--bd);padding-right:22px}.tl .c{margin-bottom:14px;position:relative}
+.tl .c:before{content:"";position:absolute;right:-32px;top:28px;width:12px;height:12px;border-radius:50%;background:var(--ac);border:3px solid var(--bg)}
+.tl small{color:var(--ac);font-weight:600}.tl p{margin:0;color:var(--mu);font-size:14px}
+.cta{text-align:center;padding:40px 20px;border-radius:26px;background:linear-gradient(135deg,var(--ac),var(--ac2));color:#fff}
+.cta h2{margin:0 0 6px}.cta .btn{background:#ffffff26;color:#fff;border-color:#ffffff55}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:30px 0 70px}footer a{color:inherit}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+.fab{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;box-shadow:0 8px 30px #6366f166}
+#panel{position:fixed;top:0;bottom:0;left:0;width:min(440px,100%);z-index:40;background:var(--s);border-right:1px solid var(--bd);box-shadow:20px 0 60px #0006;transform:translateX(-105%);transition:transform .35s;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}
+#panel.on{transform:none}
+.ph{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--bd)}
+.st{font-size:12px;color:var(--mu)}.st.d{color:#f59e0b}
+.ib{border:0;background:var(--bg);color:var(--tx);border-radius:9px;width:32px;height:32px;cursor:pointer;margin-right:4px}
+.pt{display:flex;gap:6px;overflow-x:auto;padding:10px 14px;border-bottom:1px solid var(--bd)}
+.pt button{border:0;background:none;color:var(--mu);font:inherit;font-size:13px;padding:5px 12px;border-radius:99px;cursor:pointer;white-space:nowrap}
+.pt button.a{background:var(--ac);color:#fff}
+.pbd{flex:1;overflow:auto;padding:16px 18px}
+.pf{padding:12px 18px calc(12px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--bd);display:flex;align-items:center;gap:12px}
+.cd{border:1px solid var(--bd);border-radius:16px;padding:12px 14px;margin-bottom:12px;background:var(--bg)}
+.ch{display:flex;justify-content:space-between;align-items:center}
+.fl{display:block;font-size:12.5px;color:var(--mu);margin:10px 0 0}
+.fl input,.fl textarea{width:100%;margin-top:3px;padding:9px 12px;border-radius:10px;border:1px solid var(--bd);background:var(--s);color:var(--tx);font:inherit;font-size:14px}
+.fl input:focus,.fl textarea:focus{outline:2px solid var(--ac);border-color:transparent}.fl input[type=range]{padding:0}
+.hint{font-size:12px;color:var(--mu)}.avr{display:flex;gap:14px;align-items:center}
+code{background:var(--bg);padding:0 6px;border-radius:6px}
+#toast{position:fixed;top:calc(16px + env(safe-area-inset-top,0px));left:50%;transform:translate(-50%,-90px);z-index:60;padding:10px 20px;border-radius:12px;color:#fff;font-size:14px;transition:.35s}
+#toast.on{transform:translate(-50%,0)}#toast.ok{background:#16a34a}#toast.er{background:#dc2626}
+#lm{position:fixed;inset:0;z-index:50;background:#000a;display:grid;place-items:center;padding:20px}#lm .c{width:100%;max-width:440px}
+@media(max-width:700px){.nv .lk{display:none}}
+@media print{.nv,.fab,#panel,.ct,.cta,footer a{display:none!important}.rv{opacity:1;transform:none}body{background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<script id="data" type="application/json">{"name":"حسین حیدرنیا","title":"برنامه‌نویس • طراح وب • فعالیت در بازار های مالی","bio":"سلام! من برنامه‌نویس و طراح وب هستم و در بازارهای مالی هم ترید می‌کنم.\nاینجا می‌توانید با مهارت‌ها و پروژه‌هایم آشنا شوید.","avatar":"","email":"","telegram":"nhossein","github":"","linkedin":"","skills":"برنامه‌نویسی|Python|90\nبرنامه‌نویسی|C#|90\nبرنامه‌نویسی|PHP|90\nطراحی سایت|HTML / CSS|92\nطراحی سایت|React|80\nطراحی سایت|UI/UX|78\nترید|تحلیل تکنیکال|85\nترید|مدیریت ریسک و سرمایه|88\nترید|ترید الگوریتمی|70","projects":"وب‌سایت فروشگاهی|طراحی و توسعه کامل یک فروشگاه آنلاین واکنش‌گرا.|\nربات معامله‌گر MT5|اکسپرت خودکار با مدیریت ریسک برای متاتریدر ۵.|\nداشبورد تحلیل بازار|نمایش نمودار و آمار معاملات به‌صورت زنده.|","exp":"۱۴۰4 تا اکنون|توسعه‌دهنده و طراح وب فریلنسر|ساخت وب‌سایت و اپلیکیشن برای مشتریان مختلف.\n۱۴۰5 تا اکنون|تریدر|تحلیل بازارهای مالی و توسعه استراتژی‌های معاملاتی."}</script>
+<div id="app"></div>
+<script>
+const $=(s,r=document)=>r.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const D=JSON.parse($('#data').textContent);
+const mig=(t,k)=>typeof t==='string'?t.split('\n').map(x=>x.trim()).filter(Boolean).map(x=>{const a=x.split('|').map(y=>y.trim());return Object.fromEntries(k.map((f,i)=>[f,a[i]||'']))}):(t||[]);
+D.skills=mig(D.skills,['c','n','v']);D.projects=mig(D.projects,['t','d','u']);D.exp=mig(D.exp,['p','t','d']);
+if(D.status===undefined)D.status='آماده همکاری';
+const U=u=>{u=(u||'').trim();if(u&&!/^[a-z]+:/i.test(u))u='https://'+u;return /^https?:/i.test(u)?u:''};
+const host=u=>{try{return new URL(U(u)).hostname.replace(/^www\./,'')}catch(e){return ''}};
+const A={skills:{n:{c:'',n:'',v:70},f:[['c','دسته (مثلاً برنامه‌نویسی)'],['n','نام مهارت'],['v','سطح','r']]},
+projects:{n:{t:'',d:'',u:'',g:''},f:[['t','عنوان پروژه'],['d','توضیح کوتاه','t'],['u','لینک سایت (بدون https هم کار می‌کند)','l','myshop.com'],['g','برچسب‌ها (با کاما جدا کن)']]},
+exp:{n:{p:'',t:'',d:''},f:[['p','بازه زمانی'],['t','عنوان'],['d','توضیح','t']]}};
+const NM={skills:'مهارت',projects:'پروژه',exp:'سابقه'};
+let owner=false,vis=null,dirty=false,tab=0,open=false,first=true;
+const GH=()=>{try{return JSON.parse(localStorage.getItem('gh')||'null')}catch(e){return null}};
+
+function render(){
+  const sk={};D.skills.forEach(s=>(sk[s.c||'سایر']=sk[s.c||'سایر']||[]).push(s));
+  const cats=Object.entries(sk),IC=['💻','🎨','📈','⚙️','🧠','🚀'],rv=first?'rv':'rv in';
+  const soc=[[D.email&&'mailto:'+D.email,'✉️ ایمیل'],[D.telegram&&'https://t.me/'+D.telegram.replace('@',''),'✈️ تلگرام'],[D.github&&'https://github.com/'+D.github.replace(/^@/,''),'🐙 گیت‌هاب'],[U(D.linkedin),'💼 لینکدین'],[U(D.website),'🌐 وب‌سایت']].filter(x=>x[0]);
+  $('#app').innerHTML=`
+  <nav class="nv"><div class="w"><span class="lg gt">${esc((D.name||'').split(' ')[0]||'رزومه')}</span><div><span class="lk"><a href="#skills">مهارت‌ها</a><a href="#projects">پروژه‌ها</a><a href="#exp">سوابق</a><a href="#contact">تماس</a></span></div><div><button class="ib" data-g="theme" title="تم">🌓</button><button class="ib" data-g="print" title="دانلود PDF">⬇️</button></div></div></nav>
+  <header class="hero"><div class="w">
+    <div class="av">${D.avatar?`<img src="${D.avatar}" alt="">`:esc((D.name||'؟').trim()[0])}</div>
+    ${D.status?`<div class="bdg"><i></i>${esc(D.status)}</div>`:''}
+    <h1 class="gt">${esc(D.name)}</h1><div class="tt">${esc(D.title)}</div><div class="bio">${esc(D.bio)}</div>
+    <div class="ct"><a class="btn p" href="#projects">مشاهده پروژه‌ها</a><a class="btn" href="#contact">تماس با من</a></div>
+    <div class="stt"><div><b class="gt">${D.projects.length}</b><span>پروژه</span></div><div><b class="gt">${D.skills.length}</b><span>مهارت</span></div><div><b class="gt">${cats.length}</b><span>حوزه تخصصی</span></div></div>
+  </div></header>
+  <main class="w">
+  <section id="skills"><h2><small>SKILLS</small>مهارت‌ها</h2><div class="g">${cats.map(([c,a],i)=>`<div class="c ${rv}"><div class="ic">${IC[i%6]}</div><h3>${esc(c)}</h3>${a.map(s=>{const v=Math.max(0,Math.min(100,+s.v||0));return `<div class="sk"><div class="t"><span>${esc(s.n)}</span><span>${v}٪</span></div><div class="bar"><i data-w="${v}" ${first?'':`style="width:${v}%"`}></i></div></div>`}).join('')}</div>`).join('')}</div></section>
+  <section id="projects"><h2><small>PROJECTS</small>پروژه‌ها</h2><div class="g">${D.projects.map((p,i)=>`<article class="pc ${rv}"><div class="bw" style="--h:${(i*67+220)%360}"><i></i><i></i><i></i><span>${esc(host(p.u)||'پیش‌نمایش')}</span></div><div class="pb"><h3>${esc(p.t)}</h3><p>${esc(p.d)}</p>${(p.g||'').split(/[,،]/).map(x=>x.trim()).filter(Boolean).map(x=>`<span class="tg">${esc(x)}</span>`).join('')}${U(p.u)?`<div><a class="btn p" href="${esc(U(p.u))}" target="_blank" rel="noopener">مشاهده سایت ↗</a></div>`:''}</div></article>`).join('')}</div></section>
+  <section id="exp"><h2><small>EXPERIENCE</small>سوابق</h2><div class="tl">${D.exp.map(x=>`<div class="c ${rv}"><small>${esc(x.p)}</small><h3>${esc(x.t)}</h3><p>${esc(x.d)}</p></div>`).join('')}</div></section>
+  <section id="contact"><div class="cta ${rv}"><h2>بیا با هم کار کنیم</h2><p>برای سفارش وب‌سایت، همکاری یا گفتگو درباره بازارهای مالی پیام بده.</p><div class="ct">${soc.map(l=>`<a class="btn" href="${esc(l[0])}" target="_blank" rel="noopener">${l[1]}</a>`).join('')}</div></div></section>
+  </main>
+  <footer>${vis!=null?`<div style="margin-bottom:6px">👁 بازدیدکنندگان: <b>${vis.toLocaleString('fa-IR')}</b></div>`:''}© ${esc(D.name)} · <a href="#" data-g="open">${owner?'پنل مدیریت':'🔒 ورود مدیر'}</a></footer>
+  ${owner?'<button class="btn p fab" data-g="open">✏️ مدیریت</button>':''}`;
+  if(first){first=false;const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');x.target.querySelectorAll('.bar i').forEach(b=>b.style.width=b.dataset.w+'%');io.unobserve(x.target)}}),{threshold:.1});document.querySelectorAll('.rv').forEach(e=>io.observe(e))}
+}
+
+/* ---------- panel ---------- */
+const P=document.createElement('div');P.id='panel';document.body.appendChild(P);
+const fld=(l,at,v,o={})=>`<label class="fl">${l}${o.t?`<textarea ${at} rows="3">${esc(v)}</textarea>`:`<input ${at} value="${esc(v)}" ${o.dir?'dir="ltr"':''} ${o.ph?`placeholder="${o.ph}"`:''}>`}</label>`;
+const af=(a,i,[f,l,m,ph])=>{const at=`data-a="${a}" data-i="${i}" data-f="${f}"`,v=D[a][i][f];return m==='r'?`<label class="fl">${l}: <b>${v}٪</b><input type="range" min="0" max="100" value="${v}" ${at}></label>`:fld(l,at,v,{t:m==='t',dir:m==='l',ph})};
+const list=a=>D[a].map((x,i)=>`<div class="cd"><div class="ch"><b>${NM[a]} ${i+1}</b><span>${['up','dn','del'].map((k,j)=>`<button class="ib" data-act="${k}" data-a="${a}" data-i="${i}">${['↑','↓','🗑'][j]}</button>`).join('')}</span></div>${A[a].f.map(f=>af(a,i,f)).join('')}</div>`).join('')+`<button class="btn p wide" data-act="add" data-a="${a}">+ افزودن ${NM[a]}</button>`;
+function body(){const k=(l,key,o)=>fld(l,`data-k="${key}"`,D[key],o);
+  if(tab==0)return `<div class="avr"><div class="av sm">${D.avatar?`<img src="${D.avatar}" alt="">`:esc((D.name||'؟')[0])}</div><div><input type="file" id="fav" accept="image/*"> ${D.avatar?'<button class="btn" data-act="avdel">حذف</button>':''}</div></div>`+k('نام و نام خانوادگی','name')+k('عنوان شغلی','title')+k('وضعیت (خالی = مخفی)','status')+k('درباره من','bio',{t:1});
+  if(tab==1)return k('ایمیل','email',{dir:1})+k('آیدی تلگرام','telegram',{dir:1})+k('نام کاربری گیت‌هاب','github',{dir:1})+k('لینک لینکدین','linkedin',{dir:1})+k('سایت شخصی','website',{dir:1,ph:'mysite.com'});
+  if(tab<5)return list(['','','skills','projects','exp'][tab]);
+  const g=GH();return `<div class="cd"><b>اتصال به گیت‌هاب</b><p class="hint">مخزن: <code dir="ltr">${esc(g&&g.repo)}</code><br>توکن فقط در همین مرورگر ذخیره است. با حذف آن، دسترسی ویرایش از این دستگاه بسته می‌شود.</p><button class="btn" data-act="logout">🔓 خروج و حذف توکن</button></div>`}
+function drawPanel(){P.className=open?'on':'';if(!open)return;
+  P.innerHTML=`<div class="ph"><div><b>پنل مدیریت</b><div class="st ${dirty?'d':''}" id="st">${dirty?'● تغییرات ذخیره‌نشده':'✓ همه‌چیز ذخیره است'}</div></div><button class="ib" data-act="close">✕</button></div><nav class="pt">${['👤 پروفایل','🔗 تماس','🧩 مهارت‌ها','🚀 پروژه‌ها','🕘 سوابق','⚙️ تنظیمات'].map((t,i)=>`<button class="${i==tab?'a':''}" data-act="tab" data-t="${i}">${t}</button>`).join('')}</nav><div class="pbd">${body()}</div><div class="pf"><button class="btn p" id="sv" data-act="save">💾 ذخیره و انتشار</button><span class="hint">Ctrl+S</span></div>`}
+const mark=()=>{dirty=true;const s=$('#st');if(s){s.textContent='● تغییرات ذخیره‌نشده';s.className='st d'}};
+P.addEventListener('input',e=>{const t=e.target,d=t.dataset;if(d.k!==undefined)D[d.k]=t.value;else if(d.a){D[d.a][+d.i][d.f]=t.value;if(t.type==='range')t.parentNode.querySelector('b').textContent=t.value+'٪'}else return;mark();render()});
+P.addEventListener('change',e=>{if(e.target.id!=='fav')return;const f=e.target.files[0];if(!f)return;const im=new Image();im.onload=()=>{const s=360,c=document.createElement('canvas');c.width=c.height=s;const r=Math.min(im.width,im.height);c.getContext('2d').drawImage(im,(im.width-r)/2,(im.height-r)/2,r,r,0,0,s,s);D.avatar=c.toDataURL('image/jpeg',.82);mark();render();drawPanel()};im.src=URL.createObjectURL(f)});
+P.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act,x=b.dataset.a,i=+b.dataset.i;
+  if(a==='save'){save();return}
+  if(a==='tab')tab=+b.dataset.t;else if(a==='close')open=false;
+  else if(a==='add'){D[x].push({...A[x].n});mark()}else if(a==='del'){D[x].splice(i,1);mark()}
+  else if(a==='avdel'){D.avatar='';mark()}
+  else if(a==='logout'){try{localStorage.removeItem('gh')}catch(_){}owner=false;open=false}
+  else if(a==='up'||a==='dn'){const j=a==='up'?i-1:i+1;if(j<0||j>=D[x].length)return;[D[x][i],D[x][j]]=[D[x][j],D[x][i]];mark()}
+  render();drawPanel()});
+document.addEventListener('keydown',e=>{if(!open)return;if((e.ctrlKey||e.metaKey)&&e.key==='s'){e.preventDefault();save()}if(e.key==='Escape'){open=false;drawPanel()}});
+addEventListener('beforeunload',e=>{if(dirty)e.preventDefault()});
+function toast(t,ok=1){let e=$('#toast');if(!e){e=document.createElement('div');e.id='toast';document.body.appendChild(e)}e.textContent=t;e.className='on '+(ok?'ok':'er');clearTimeout(toast.t);toast.t=setTimeout(()=>e.className='',4000)}
+
+/* ---------- save to GitHub ---------- */
+async function persist(){
+  const g=GH();if(!g)throw 0;
+  const c=document.documentElement.cloneNode(true);
+  c.querySelector('#data').textContent=JSON.stringify(D).replace(/</g,'\\u003c');
+  c.querySelector('#app').innerHTML='';['#panel','#toast','#lm'].forEach(s=>c.querySelector(s)?.remove());c.removeAttribute('data-theme');
+  const html='<!DOCTYPE html>\n'+c.outerHTML,u='https://api.github.com/repos/'+g.repo+'/contents/index.html',h={Authorization:'Bearer '+g.token,Accept:'application/vnd.github+json'};
+  const r=await fetch(u+'?ref='+g.branch,{headers:h}),j=r.ok?await r.json():{};
+  const p=await fetch(u,{method:'PUT',headers:h,body:JSON.stringify({message:'Update resume',content:btoa(unescape(encodeURIComponent(html))),sha:j.sha,branch:g.branch})});
+  if(!p.ok)throw new Error(p.status);
+}
+async function save(){const b=$('#sv');if(b){b.disabled=true;b.textContent='در حال ذخیره…'}
+  try{await persist();dirty=false;toast('✓ ذخیره شد؛ تا ۱–۲ دقیقه دیگر سایت به‌روز می‌شود')}catch(e){toast('ذخیره نشد؛ توکن و دسترسی مخزن را بررسی کن',0)}
+  drawPanel()}
+
+/* ---------- login ---------- */
+function login(){const m=document.createElement('div');m.id='lm';
+  const h=location.hostname.endsWith('github.io')?location.hostname.split('.')[0]:'',rp=location.pathname.split('/')[1]||'';
+  m.innerHTML=`<div class="c"><h3>🔐 ورود به پنل مدیریت</h3><label class="fl">مخزن (username/repo)<input id="gr" dir="ltr" value="${h?h+'/'+(rp||h+'.github.io'):''}"></label><label class="fl">توکن گیت‌هاب (Fine-grained، فقط Contents: Read and write برای همین مخزن)<input id="gt" type="password" dir="ltr"></label><p class="hint" id="gm">فقط کسی که این توکن را دارد می‌تواند رزومه را تغییر دهد. توکن فقط در مرورگر خودت می‌ماند.</p><div class="ct" style="margin:0"><button class="btn p" id="gs">ورود</button><button class="btn" id="gc">بستن</button></div></div>`;
+  document.body.appendChild(m);$('#gc',m).onclick=()=>m.remove();
+  $('#gs',m).onclick=async()=>{const repo=$('#gr',m).value.trim(),token=$('#gt',m).value.trim(),gm=$('#gm',m);
+    if(!/^[\w.-]+\/[\w.-]+$/.test(repo)||!token){gm.textContent='مخزن و توکن را درست وارد کن.';return}
+    try{const r=await fetch('https://api.github.com/repos/'+repo,{headers:{Authorization:'Bearer '+token}}),j=await r.json();if(!r.ok||!(j.permissions&&j.permissions.push))throw 0;
+      localStorage.setItem('gh',JSON.stringify({repo,token,branch:j.default_branch}));owner=true;open=true;m.remove();render();drawPanel()}catch(e){gm.textContent='توکن یا مخزن معتبر نیست یا دسترسی نوشتن ندارد.'}}}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-g]');if(!t)return;const g=t.dataset.g;
+  if(g==='open'){e.preventDefault();if(owner){open=true;drawPanel()}else login()}
+  else if(g==='theme'){const r=document.documentElement,d=r.dataset.theme==='dark'||(!r.dataset.theme&&matchMedia('(prefers-color-scheme:dark)').matches);r.dataset.theme=d?'light':'dark'}
+  else if(g==='print')print()});
+
+/* ---------- visitors ---------- */
+async function visits(){try{
+  const ns=(location.host+location.pathname).replace(/[^\w-]+/g,'-').replace(/^-|-$/g,'')||'site',base='https://api.counterapi.dev/v1/'+ns+'/visits';
+  let seen=false;try{seen=sessionStorage.getItem('v')==='1'}catch(e){}
+  const r=await fetch(base+(seen||owner?'/':'/up')),j=await r.json(),n=j.count??j.value??(j.data&&j.data.up_count);
+  if(typeof n==='number'){vis=n;try{if(!owner)sessionStorage.setItem('v','1')}catch(e){}render()}
+}catch(e){}}
+
+owner=!!GH();render();visits();
+</script>
+</body>
+</html>
